@@ -45,9 +45,20 @@
 
 //console.log('A sua password tem '+password.length);
 
-const word = 'Skateboard';
+// const word = 'Skateboard';
 
-let facialHair = word.slice(5,10).replace('o','e');
+// let facialHair = word.slice(5,10).replace('o','e');
 
-alert(word);
-alert(facialHair);
+// facialHair = 'Ive done my beard!';
+
+// alert(word);
+// alert(facialHair);^
+
+let numb1 = 10;
+let numb2 = 20;
+
+numb1 = 5;
+
+alert('A soma de '+numb1+' + ' + numb2+' é '+(numb1+numb2));
+
+alert(`A soma ${numb1} + ${numb2} é  ${numb1+numb2}`);
