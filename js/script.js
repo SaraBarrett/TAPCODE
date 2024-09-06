@@ -68,17 +68,32 @@
 //         alert('não reconheço esse dia');
 // }
 
-let serie = 'lost';
+// let serie = 'lost';
 
-let series = ['friends', 'breaking bad', 'the bear','succession'];
+// let series = ['friends', 'breaking bad', 'the bear','succession'];
+// console.log('antes:'+series);
 
-console.log('antes:'+series);
+// //substitui a posição 1 por o que indicarmos
+// //series[1] = 'Better Call Saul';
 
-//substitui a posição 1 por o que indicarmos
-//series[1] = 'Better Call Saul';
+// //adicionar a newSerie na última posição
+// let newSerie = prompt('qual a série?');
+// series.push(newSerie);
 
-//adicionar a série Glee na última posição
-let newSerie = prompt('qual a série?');
-series.push(newSerie);
+// //eliminar a última
+// series.pop();
 
-console.log('depois:'+series);
+// console.log('depois:'+series);
+
+let planets = ['Mercúrio', 'Vénus', 'Terra', 'Mart', 'Jupiter', 'Saturno', 'Urano', 'Neptuno', 'Plutão'];
+// planets[3] = 'Marte';
+// planets.pop();
+// let newPlanet = prompt('qual o planeta que descobriste?');
+// planets.unshift(newPlanet);
+// console.log(planets);
+
+let myPlanets = [planets[2], planets[7]];
+console.log(planets);
+
+
+console.log(planets.reverse());
