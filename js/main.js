@@ -59,6 +59,8 @@ let numb2 = 20;
 
 numb1 = 5;
 
-alert('A soma de '+numb1+' + ' + numb2+' é '+(numb1+numb2));
+console.log('A soma de '+numb1+' + ' + numb2+' é '+(numb1+numb2));
 
-alert(`A soma ${numb1} + ${numb2} é  ${numb1+numb2}`);
+console.error(`A soma ${numb1} + ${numb2} é  ${numb1+numb2}`);
+
+console.warn('variável numb1: ' + numb1);
