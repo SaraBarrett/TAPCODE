@@ -39,14 +39,46 @@
 //     alert('Bem Vindo');
 // }
 
-let todayDay = prompt('Que dia é hoje?');
+//ex 3
+// let todayDay = prompt('Que dia é hoje?');
 
-if(todayDay.toLowerCase() == 'sexta'){
-    alert('Sextou');
-}else if(todayDay == 'quarta'){
-    alert('força nisso');
-}else if(todayDay == 'sábado' || todayDay == 'sabado' || todayDay == 'domingo'){
-    alert('dia de festa');
-}else{
-    alert('não reconheço esse dia');
-}
+//ex com if/ else
+// if(todayDay.toLowerCase() == 'sexta'){
+//     alert('Sextou');
+// }else if(todayDay == 'quarta'){
+//     alert('força nisso');
+// }else if(todayDay == 'sábado' || todayDay == 'sabado' || todayDay == 'domingo'){
+//     alert('dia de festa');
+// }else{
+//     alert('não reconheço esse dia');
+// }
+
+//ex com switch/ case
+// switch(todayDay.toLowerCase()){
+//     case 'sexta':
+//         alert('Sextou');
+//     break;
+//     case 'quarta':
+//         alert('quarta');
+//     break;
+//     case 'sábado' || 'sabado' || 'domingo':
+//         alert('Festa');
+//     break;
+//     default:
+//         alert('não reconheço esse dia');
+// }
+
+let serie = 'lost';
+
+let series = ['friends', 'breaking bad', 'the bear','succession'];
+
+console.log('antes:'+series);
+
+//substitui a posição 1 por o que indicarmos
+//series[1] = 'Better Call Saul';
+
+//adicionar a série Glee na última posição
+let newSerie = prompt('qual a série?');
+series.push(newSerie);
+
+console.log('depois:'+series);
