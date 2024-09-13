@@ -85,7 +85,7 @@
 
 // console.log('depois:'+series);
 
-let planets = ['Mercúrio', 'Vénus', 'Terra', 'Mart', 'Jupiter', 'Saturno', 'Urano', 'Neptuno', 'Plutão'];
+// let planets = ['Mercúrio', 'Vénus', 'Terra', 'Mart', 'Jupiter', 'Saturno', 'Urano', 'Neptuno', 'Plutão'];
 // planets[3] = 'Marte';
 // planets.pop();
 // let newPlanet = prompt('qual o planeta que descobriste?');
@@ -139,18 +139,43 @@ let planets = ['Mercúrio', 'Vénus', 'Terra', 'Mart', 'Jupiter', 'Saturno', 'Ur
 
 // console.log(courseModule.hours);
 
+// let product = {
+//     name: 'viagem',
+//     price: 1.99,
+//     inStock: true,
+//     colors: ['vermelho', 'azul', 'verde']
+// };
 
-let product = {
-    name: 'viagem',
-    price: 1.99,
-    inStock: true,
-    colors: ['vermelho', 'azul', 'verde']
-};
+// console.log('o preço do produto é '+product.price);
+// console.log('a cor é '+product.colors[2]);
 
-console.log('o preço do produto é '+product.price);
-console.log('a cor é '+product.colors[2]);
+// product.price = 2.55;
 
-product.price = 2.55;
+// console.log(product);
 
-console.log(product);
+// console.log('olá turma!'); 
 
+// for(let i = 1; i<11; i++){
+//     // console.log(i);
+//     console.log('olá turma!')
+
+// }
+
+let planets = ['Mercúrio', 'Vénus', 'Terra', 'Marte', 'Jupiter', 'Saturno', 'Urano', 'Neptuno', 'Plutão'];
+
+// console.log(planets[0]);
+// console.log(planets[1]);
+// console.log(planets[2]);
+// console.log(planets[3]);
+// console.log(planets[4]);
+// console.log(planets[5]);
+// console.log(planets[6]);
+// console.log(planets[7]);
+// console.log(planets[8]);
+
+
+for(let i = 0; i<9; i++){
+    console.log(i+planets[i]);        
+}
+
+console.log('sai fora');
