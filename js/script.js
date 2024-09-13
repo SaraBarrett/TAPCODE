@@ -92,8 +92,65 @@ let planets = ['Mercúrio', 'Vénus', 'Terra', 'Mart', 'Jupiter', 'Saturno', 'Ur
 // planets.unshift(newPlanet);
 // console.log(planets);
 
-let myPlanets = [planets[2], planets[7]];
-console.log(planets);
+// let myPlanets = [planets[2], planets[7]];
+// console.log(planets);
 
 
-console.log(planets.reverse());
+// console.log(planets.reverse());
+
+
+// let modules = [
+//     ['Funções', 'Variáveis', 'DOm'],
+//     ['EWEB', 'HTML', 'Bootstrap'],
+//     'CSS',
+//     'SGC'
+// ];
+
+// console.log(modules[3]);
+
+//ex airplanes
+// const airplaneSeats = [
+//     ['Ruth', 'Anthony', 'Stevie'],
+//     ['Amelia', 'Pedro', 'Maya'],
+//     ['Xavier', 'Ananya', 'Luis'],
+//     ['Luke', null, 'Deniz'],
+//     ['Rin', 'Sakura', 'Francisco']
+// ];
+
+// airplaneSeats[3][1]='Sara';
+
+// console.log(airplaneSeats);
+
+//objectos
+// let courseModule = {
+//     name: 'TAP',
+//     hours : 50.2,
+//     teacherName : 'Sara Monteiro',
+//     format: 'misto',
+//     evaluation: ['em aula', 'exame final']
+// }
+
+// //construir uma frase usando o objecto declarado
+// console.log('o curso de '+courseModule.name+' tem '+courseModule.hours+' horas');
+
+// console.log('a avaliação é por '+courseModule.evaluation[1]);
+
+// courseModule.hours =courseModule.hours+10;
+
+// console.log(courseModule.hours);
+
+
+let product = {
+    name: 'viagem',
+    price: 1.99,
+    inStock: true,
+    colors: ['vermelho', 'azul', 'verde']
+};
+
+console.log('o preço do produto é '+product.price);
+console.log('a cor é '+product.colors[2]);
+
+product.price = 2.55;
+
+console.log(product);
+
