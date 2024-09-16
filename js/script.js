@@ -161,6 +161,16 @@
 
 // }
 
+// em ciclo while
+
+// let num = 1;
+
+// while(num<11){
+//     console.log(num);
+//     num++;
+// }
+
+
 // let planets = ['Mercúrio', 'Vénus', 'Terra', 'Marte', 'Jupiter', 'Saturno', 'Urano', 'Neptuno', 'Plutão'];
 
 // console.log(planets[0]);
@@ -194,8 +204,40 @@
 // }
 
 
-const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"];
+// const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"];
 
-for(let i=0; i<people.length; i++){
-    console.log(people[i].toUpperCase());
+// //ciclo for tradicional
+// for(let i=0; i<people.length; i++){
+//     console.log(i, people[i].toUpperCase());
+// }
+
+// //imprime os elementos do array
+// for(let element of people){
+//     console.log(element);
+// }
+
+
+// for(let element in people){
+//     console.log(people[element]);
+// }
+
+// let secretCode = 'sexta';
+// let userCode = prompt('Qual é o código?');
+
+// while(userCode.toLowerCase() != secretCode){
+//     alert('ups, não é esse código!');
+//     userCode = prompt('Qual é o código?');
+// }
+
+// alert('bem vindo à festa!');
+
+
+let list = [];
+let itemList = prompt('que item queres na lista?');
+
+while(itemList != 'fim'){
+    list.push(itemList);
+    itemList = prompt('que item queres na lista? para terminar coloca fim.');
 }
+
+console.log(list);
