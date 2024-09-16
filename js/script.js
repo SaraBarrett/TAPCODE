@@ -161,7 +161,7 @@
 
 // }
 
-let planets = ['Mercúrio', 'Vénus', 'Terra', 'Marte', 'Jupiter', 'Saturno', 'Urano', 'Neptuno', 'Plutão'];
+// let planets = ['Mercúrio', 'Vénus', 'Terra', 'Marte', 'Jupiter', 'Saturno', 'Urano', 'Neptuno', 'Plutão'];
 
 // console.log(planets[0]);
 // console.log(planets[1]);
@@ -174,8 +174,28 @@ let planets = ['Mercúrio', 'Vénus', 'Terra', 'Marte', 'Jupiter', 'Saturno', 'U
 // console.log(planets[8]);
 
 
-for(let i = 0; i<9; i++){
-    console.log(i+planets[i]);        
-}
+// for(let i = 0; i<planets.length; i++){
+//     console.log(i+planets[i]);        
+// }
 
-console.log('sai fora');
+// console.log('sai fora');
+
+// for(let i = 1; i<7; i++){
+//     console.log('da ba dee dabada');
+// }
+
+// for(let i=25; i>=5;  i-=5){
+//     console.log(i);
+// }
+
+
+// for(let i=5; i>0;  i--){
+//     console.log(i*5);
+// }
+
+
+const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"];
+
+for(let i=0; i<people.length; i++){
+    console.log(people[i].toUpperCase());
+}
