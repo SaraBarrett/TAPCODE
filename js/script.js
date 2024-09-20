@@ -232,12 +232,12 @@
 // alert('bem vindo à festa!');
 
 
-let list = [];
-let itemList = prompt('que item queres na lista?');
+// let list = [];
+// let itemList = prompt('que item queres na lista?');
 
-while(itemList != 'fim'){
-    list.push(itemList);
-    itemList = prompt('que item queres na lista? para terminar coloca fim.');
-}
+// while(itemList != 'fim'){
+//     list.push(itemList);
+//     itemList = prompt('que item queres na lista? para terminar coloca fim.');
+// }
 
-console.log(list);
+// console.log(list);
